@@ -63,6 +63,31 @@
   type: remake
   updated: 2022-07-16
 
+- name: C7
+  originals:
+  - Civilization III
+  type: remake
+  repo: 'https://github.com/C7-Game/Prototype'
+  url: 'https://c7-game.github.io'
+  feed: 'https://github.com/C7-Game/Prototype/releases.atom'
+  development: very active
+  status: semi-playable
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - Godot
+  - .NET
+  licenses:
+  - MIT
+  info: >-
+    Uses Civ3 assets for now but aims for a standalone 4X game with multiple
+    inspirations
+  added: '2025-06-09'
+  updated: '2025-06-09'
+  video:
+    youtube: zHGO_fbz0nY
+
 - name: Cadaver
   development: halted
   images:
@@ -1679,6 +1704,26 @@
   type: remake
   updated: 2022-07-16
   url: https://haleymt.github.io/CrystalQuest/
+
+- name: CS2D Beta
+  originals:
+  - Counter-Strike
+  type: clone
+  repo: 'https://www.unrealsoftware.de/get.php?get=cs2dbeta0100source.zip'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - Co-op
+  content: free
+  langs:
+  - BlitzBasic
+  licenses:
+  - GPL3
+  info: top-down 2D clone - new versions are freeware only
+  added: '2025-06-09'
+  updated: '2025-06-09'
 
 - name: CSBwin
   originals:

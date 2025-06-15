@@ -593,6 +593,7 @@
   status: playable
   repo: https://sourceforge.net/projects/sdl-asylum/
   type: remake
+  added: 2015-04-17
   updated: 2022-08-05
   url: https://sdl-asylum.sourceforge.net/
 
@@ -629,15 +630,18 @@
   - SDL2
   licenses:
   - GPL2
+  content: open
   development: sporadic
   originals:
   - Sopwith
   repo: https://github.com/fragglet/sdl-sopwith
+  feed: https://github.com/fragglet/sdl-sopwith/releases.atom
   status: playable
   multiplayer:
   - Online
   - Competitive
   type: remake
+  added: 2014-03-17
   updated: 2023-02-04
   url: https://fragglet.github.io/sdl-sopwith/
 
@@ -655,8 +659,10 @@
   repo: https://github.com/NagyD/SDLPoP
   status: playable
   type: remake
+  added: 2015-05-30
   updated: 2023-10-23
   url: https://www.popot.org/get_the_games.php?game=SDLPoP
+  info: based on the disassembly of the DOS version, extended with new features.
   images:
   - https://www.popot.org/get_the_games/images/SDLPoP_1_big.png
   - https://www.popot.org/get_the_games/images/SDLPoP_2_big.png
@@ -674,9 +680,10 @@
   frameworks:
   - Phaser
   licenses:
-  - As-is
+  - MIT
   content: free
-  updated: 2019-05-09
+  added: 2019-05-09
+  updated: 2025-06-01
 
 - name: Seafood Berserker!
   originals:
@@ -700,8 +707,8 @@
 - name: Secret Agent Remake
   originals:
   - Secret Agent
-  type: clone
-  repo: 'https://sourceforge.net/projects/secretagentremake/'
+  type: remake
+  repo: https://sourceforge.net/projects/secretagentremake/
   development: halted
   status: semi-playable
   content: free
@@ -712,7 +719,8 @@
   licenses:
   - As-is
   info: 'Remake of old game Secret Agent (more weapons, better AI)'
-  updated: '2021-09-12'
+  added: 2021-09-12
+  updated: 2021-09-12
   images:
   - >-
     https://a.fsdn.com/con/app/proj/secretagentremake/screenshots/sam3.png/max/max/1
@@ -724,15 +732,19 @@
 - name: The Secret Chronicles of Dr. M.
   langs:
   - C++
+  frameworks:
+  - SFML
   licenses:
   - GPL3
+  content: free
   development: sporadic
   originals:
   - Mario World
   status: playable
   repo: https://github.com/secretchronicles/TSC
   type: remake
-  updated: 2022-12-08
+  added: 2018-10-06
+  updated: 2025-06-02
   url: https://secretchronicles.org
   images:
   - https://secretchronicles.org/assets/screenshots/1.png
@@ -751,14 +763,18 @@
   - https://upload.wikimedia.org/wikipedia/commons/6/68/Smc-4-v2.0.png
   langs:
   - C++
+  frameworks:
+  - OpenGL
   licenses:
   - GPL3
+  content: open
   development: halted
   originals:
   - Mario World
   status: playable
   repo: https://github.com/FluXy/SMC
   type: remake
+  added: 2011-06-04
   updated: 2018-10-06
   url: http://secretmaryo.org/
 
@@ -767,14 +783,18 @@
   - https://raw.githubusercontent.com/bylexus/sensitive-js/master/screen-remake.png
   langs:
   - JavaScript
+  frameworks:
+  - Phaser
   licenses:
   - ISC
+  content: open
   development: halted
   originals:
   - Sensitive
   status: semi-playable
   repo: https://github.com/bylexus/sensitive-js
   type: remake
+  added: 2017-04-27
   updated: 2017-04-27
 
 - name: Serious Engine
@@ -782,7 +802,7 @@
   - 'Serious Sam: The First Encounter'
   - 'Serious Sam: The Second Encounter'
   type: official
-  repo: 'https://github.com/Croteam-official/Serious-Engine'
+  repo: https://github.com/Croteam-official/Serious-Engine
   url: 'http://www.croteam.com/technology/'
   development: complete
   status: playable
@@ -791,9 +811,12 @@
   content: commercial
   langs:
   - C++
+  frameworks:
+  - DirectX
   licenses:
   - GPL2
-  updated: '2023-03-08'
+  added: 2023-03-08
+  updated: 2023-03-08
   images:
   - 'https://www.croteam.com/wp-content/uploads/2014/10/Engine1_TSE_5.jpg'
   - 'https://www.croteam.com/wp-content/uploads/2014/10/Engine1_TFE_1.jpg'
@@ -807,26 +830,31 @@
   - 'Serious Sam: The First Encounter'
   - 'Serious Sam: The Second Encounter'
   type: remake
-  repo: 'https://github.com/tx00100xt/SeriousSamClassic'
-  feed: 'https://github.com/tx00100xt/SeriousSamClassic/releases.atom'
-  development: very active
+  repo: https://github.com/tx00100xt/SeriousSamClassic
+  feed: https://github.com/tx00100xt/SeriousSamClassic/releases.atom
+  development: sporadic
   status: playable
   content: commercial
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  updated: '2023-02-12'
+  added: 2023-02-12
+  updated: 2025-06-06
   images:
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_1.png
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_2.png
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_3.png
   
 - name: Serious-Sam-Android
-  info: 'A port of Serious Sam: the Second Encounter to Android. There is also a fork
-  for the Pandora.'
+  info: 'A port of Serious Sam: the Second Encounter to Android. There is also a fork for the Pandora.'
   langs:
   - C++
+  frameworks:
+  - DirectX
+  - OpenGL
   licenses:
   - GPL2
   originals:
@@ -834,18 +862,21 @@
   development: halted
   status: playable
   content: commercial
-  repo: 'https://github.com/aarcangeli/Serious-Sam-Android'
+  repo: https://github.com/aarcangeli/Serious-Sam-Android
   type: remake
-  updated: 2021-10-25
+  added: 2021-10-25
+  updated: 2025-06-06
+  video:
+    youtube: mhUad2YaE3Y
 
 - name: 'Serious Sam Classic: Vulkan'
   originals:
   - 'Serious Sam: The First Encounter'
   - 'Serious Sam: The Second Encounter'
   type: remake
-  repo: 'https://github.com/tx00100xt/SeriousSamClassic-VK'
-  feed: 'https://github.com/tx00100xt/SeriousSamClassic-VK/releases.atom'
-  development: very active
+  repo: https://github.com/tx00100xt/SeriousSamClassic-VK
+  feed: https://github.com/tx00100xt/SeriousSamClassic-VK/releases.atom
+  development: sporadic
   status: playable
   multiplayer:
   - Local
@@ -860,10 +891,10 @@
   - Vulkan
   licenses:
   - GPL2
-  updated: '2023-04-15'
+  added: 2023-04-15
+  updated: 2025-06-07
   images:
-  - >-
-    https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_1.png
+  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_1.png
   - 'https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_2.png'
   - 'https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_3.png'
   - 'https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samvulkan_1.png'
@@ -879,6 +910,7 @@
   - SDL2
   licenses:
   - GPL2
+  content: free
   development: active
   originals:
   - Seven Kingdoms
@@ -890,32 +922,41 @@
   repo: https://sourceforge.net/projects/skfans/
   type: remake
   url: https://7kfans.com
+  feed: https://7kfans.com/rss.xml
+  added: 2011-06-15
   updated: 2023-10-24
   video:
     youtube: nRE3HX1Tx3g
 
 - name: sfall
   development: active
-  info: Needs full original game
+  info: sfall is a set of engine modifications for the classic game Fallout 2 in the form of a DLL, which modifies executable in memory without changing anything in EXE file itself.
   langs:
   - C++
   - C
   - C#
+  frameworks:
+  - DirectX
   licenses:
   - GPL3
   content: commercial
   originals:
   - Fallout 2
   repo: https://github.com/phobos2077/sfall
-  status: playable
-  type: remake
-  updated: 2018-06-20
+  url: https://sfall-team.github.io/sfall/
+  status: N/A
+  type: tool
+  added: 2018-06-20
+  updated: 2025-06-08
+  images:
+  - https://u.cubeupload.com/NovaRain/sfalldemo1.png
+  - https://u.cubeupload.com/NovaRain/sfalldemo2.png
 
 - name: sh3redux
   originals:
   - Silent Hill 3
   type: remake
-  repo: 'https://github.com/Palm-Studios/sh3redux'
+  repo: https://github.com/Palm-Studios/sh3redux
   url: https://sh3redux.blogspot.com
   feed: https://sh3redux.blogspot.com/feeds/posts/default
   development: halted
@@ -929,7 +970,8 @@
   licenses:
   - GPL3
   info: SILENT HILL 3 Engine Remake in OpenGL and C++
-  updated: '2020-12-03'
+  added: 2020-12-03
+  updated: 2020-12-03
   images:
   - >-
     https://2.bp.blogspot.com/-Y84Ml-Y_vwA/WYxpVeu5mUI/AAAAAAAAAcM/Un6um3dMju41WS06YiwF0lXQ7tTinqMkQCLcBGAs/s1600/texture.png
@@ -1519,6 +1561,26 @@
   updated: '2021-07-08'
   video:
     youtube: iwBCFY7FqlU
+
+- name: smw
+  originals:
+  - Super Mario
+  type: remake
+  repo: https://github.com/snesrev/smw
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  info: reverse engineered clone of Super Mario World, requires ROM
+  added: 2025-06-03
+  updated: 2025-06-03
+  video:
+    youtube: Ft0Gp-1Tsjc
 
 - name: snake
   licenses:
@@ -2914,6 +2976,29 @@
   updated: 2019-03-25
   images:
   - https://www.michaelfogleman.com/static/img/project/pac-man/thumbnail/1.png
+
+- name: Symbolica
+  originals:
+  - Symbolica
+  type: clone
+  repo: 'https://sourceforge.net/projects/symbolica/'
+  feed: 'https://sourceforge.net/p/symbolica/activity/feed'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  licenses:
+  - BSD
+  info: >-
+    A port of the c64 puzzle game symbolica, primary targeted to the handhelds
+    gp2x and n-800 but is also running on other Unix platforms.
+  added: '2025-06-07'
+  updated: '2025-06-07'
+  images:
+  - 'https://os4depot.net/filedata/snapshot/2890_1_snap.jpg'
+  - 'https://os4depot.net/filedata/snapshot/2890_2_snap.jpg'
+  - 'https://a.fsdn.com/con/app/proj/symbolica/screenshots/118811.jpg'
 
 - name: Syndicate Wars Port
   development: active
