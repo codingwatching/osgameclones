@@ -74,7 +74,7 @@
 
 - name: Scorched Earth
   external:
-    wikipedia: Scorched Earth
+    wikipedia: Scorched Earth (video game)
   meta:
     genres:
     - Turn-Based Tactics
@@ -1839,4 +1839,13 @@
     genres:
     - Action
     - Adventure
+    - Puzzle
+
+- name: Symbolica
+  external:
+    website: 'https://gb64.com/game.php?id=7709'
+  platforms:
+  - Commodore 64
+  meta:
+    genres:
     - Puzzle
