@@ -63,6 +63,31 @@
   type: remake
   updated: 2022-07-16
 
+- name: C7
+  originals:
+  - Civilization III
+  type: remake
+  repo: 'https://github.com/C7-Game/Prototype'
+  url: 'https://c7-game.github.io'
+  feed: 'https://github.com/C7-Game/Prototype/releases.atom'
+  development: very active
+  status: semi-playable
+  content: commercial
+  langs:
+  - 'C#'
+  frameworks:
+  - Godot
+  - .NET
+  licenses:
+  - MIT
+  info: >-
+    Uses Civ3 assets for now but aims for a standalone 4X game with multiple
+    inspirations
+  added: '2025-06-09'
+  updated: '2025-06-09'
+  video:
+    youtube: zHGO_fbz0nY
+
 - name: Cadaver
   development: halted
   images:
@@ -831,6 +856,30 @@
   - https://camo.githubusercontent.com/2ef99c6eaab62079325c714645dc4af20a3a9e10ca977aaac49cb5166e3e5d0f/68747470733a2f2f692e706f7374696d672e63632f4e466e5951745a5a2f747265652d6861636b2e676966
   video:
     youtube: HITXSeg7zYc
+
+- name: CloneKeen
+  originals:
+  - Commander Keen Series
+  type: remake
+  repo: 'https://sourceforge.net/projects/clonekeen/'
+  url: 'https://clonekeen.sourceforge.net/'
+  development: complete
+  status: playable
+  multiplayer:
+  - Co-op
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL
+  licenses:
+  - GPL3
+  added: 2025-06-21
+  updated: 2025-06-21
+  images:
+  - 'https://a.fsdn.com/con/app/proj/clonekeen/screenshots/46199.jpg'
+  - 'https://a.fsdn.com/con/app/proj/clonekeen/screenshots/46197.jpg'
+  - 'https://a.fsdn.com/con/app/proj/clonekeen/screenshots/46195.jpg'
 
 - name: Clonepoint
   type: clone
@@ -1664,6 +1713,28 @@
   - >-
     https://raw.githubusercontent.com/OpenRakis/Cryogenic/main/doc/cryodune_send_spice.png
 
+- name: Crystal Stacker
+  originals:
+  - Columns
+  type: clone
+  url: https://www.t3-i.com/scripts/pages/project.php?id=crystal_stacker
+  development: complete
+  status: playable
+  multiplayer:
+  - Local
+  - Competitive
+  content: free
+  langs:
+  - C
+  frameworks:
+  - Allegro
+  licenses:
+  - Custom
+  added: 2025-06-21
+  updated: 2025-06-21
+  images:
+  - https://www.t3-i.com/projects/games/crystal_stacker/images/screenshot_0.png
+
 - name: CrystalQuest
   frameworks:
   - jQuery
@@ -1679,6 +1750,26 @@
   type: remake
   updated: 2022-07-16
   url: https://haleymt.github.io/CrystalQuest/
+
+- name: CS2D Beta
+  originals:
+  - Counter-Strike
+  type: clone
+  repo: 'https://www.unrealsoftware.de/get.php?get=cs2dbeta0100source.zip'
+  development: complete
+  status: playable
+  multiplayer:
+  - Competitive
+  - Online
+  - Co-op
+  content: free
+  langs:
+  - BlitzBasic
+  licenses:
+  - GPL3
+  info: top-down 2D clone - new versions are freeware only
+  added: '2025-06-09'
+  updated: '2025-06-09'
 
 - name: CSBwin
   originals:
@@ -1719,6 +1810,27 @@
   images:
   - https://raw.githubusercontent.com/gameblabla/CSE2/rs97/screenshot.png
 
+- name: CTR-ModSDK
+  originals:
+  - Crash Team Racing
+  type: tool
+  repo: 'https://github.com/CTR-tools/CTR-ModSDK'
+  development: very active
+  status: N/A
+  content: commercial
+  langs:
+  - C
+  - C++
+  licenses:
+  - As-is
+  info: >-
+    A modding toolkit to create mods for Crash Team Racing in C. This SDK
+    also houses an effort to fully decompile and reverse-engineer CTR in C.
+  added: 2025-06-22
+  updated: 2025-06-22
+  video:
+    youtube: V9QlFzSVDAU
+    
 - name: Cubosphere
   langs:
   - C++
