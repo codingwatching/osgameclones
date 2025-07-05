@@ -894,6 +894,37 @@
   video:
     youtube: i1yjls2AzKk
 
+- name: LordsAWar!
+  originals:
+  - Warlords II
+  type: clone
+  repo: http://savannah.nongnu.org/projects/lordsawar
+  url: https://lordsawar.nongnu.org/
+  feed: https://savannah.nongnu.org/news/atom.php?group=lordsawar
+  development: halted
+  status: playable
+  multiplayer:
+  - LAN
+  - Hotseat
+  langs:
+  - C++
+  frameworks:
+  - GTK
+  licenses:
+  - GPL3
+  info: 'The LordsAWar! project was started in 2006, by forking the Freelords project.'
+  added: 2025-06-12
+  updated: 2025-06-12
+  images:
+  - 'https://lordsawar.nongnu.org/screenshot2.png'
+  - 'https://lordsawar.nongnu.org/screenshot3.png'
+  - 'https://lordsawar.nongnu.org/citydialog.png'
+  - 'https://lordsawar.nongnu.org/screenshot4.png'
+  - 'https://lordsawar.nongnu.org/screenshot5.png'
+  - 'https://lordsawar.nongnu.org/editor.png'
+  video:
+    vimeo: 409439854
+
 - name: Lose Your Marbles
   langs:
   - JavaScript
@@ -1020,6 +1051,27 @@
   type: remake
   added: 2015-04-13
   updated: 2022-06-16
+
+- name: Luminol
+  originals:
+  - RPG Maker
+  type: remake
+  repo: https://github.com/Astrabit-ST/Luminol
+  url: https://luminol.dev/
+  feed: https://luminol.dev/news/feed/atom
+  development: sporadic
+  status: playable
+  content: free
+  langs:
+  - Rust
+  licenses:
+  - GPL3
+  added: 2025-06-14
+  updated: 2025-06-14
+  images:
+  - https://luminol.dev/screenshots/1.png
+  - https://luminol.dev/screenshots/2.png
+  - https://luminol.dev/screenshots/3.png
 
 - name: Lunar Lander
   originals:

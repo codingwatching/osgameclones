@@ -64,6 +64,27 @@
   images:
   - https://raw.githubusercontent.com/fr0zi/sccopter/master/Refs/milestone_1_full_terrain_data.png
 
+- name: Scorched Earth 2000
+  originals:
+  - Scorched Earth
+  type: remake
+  repo: https://sourceforge.net/projects/scorch/
+  url: 'http://www.scorch2000.com/'
+  development: halted
+  status: playable
+  multiplayer:
+  - Online
+  - Hotseat
+  content: free
+  langs:
+  - Java
+  licenses:
+  - GPL2
+  added: '2025-06-11'
+  updated: '2025-06-11'
+  images:
+  - https://www.happypenguin.altervista.org/screenshots/funky1.jpg
+
 - name: Scorched Moon
   langs:
   - Python
@@ -593,6 +614,7 @@
   status: playable
   repo: https://sourceforge.net/projects/sdl-asylum/
   type: remake
+  added: 2015-04-17
   updated: 2022-08-05
   url: https://sdl-asylum.sourceforge.net/
 
@@ -629,15 +651,18 @@
   - SDL2
   licenses:
   - GPL2
+  content: open
   development: sporadic
   originals:
   - Sopwith
   repo: https://github.com/fragglet/sdl-sopwith
+  feed: https://github.com/fragglet/sdl-sopwith/releases.atom
   status: playable
   multiplayer:
   - Online
   - Competitive
   type: remake
+  added: 2014-03-17
   updated: 2023-02-04
   url: https://fragglet.github.io/sdl-sopwith/
 
@@ -655,8 +680,10 @@
   repo: https://github.com/NagyD/SDLPoP
   status: playable
   type: remake
+  added: 2015-05-30
   updated: 2023-10-23
   url: https://www.popot.org/get_the_games.php?game=SDLPoP
+  info: based on the disassembly of the DOS version, extended with new features.
   images:
   - https://www.popot.org/get_the_games/images/SDLPoP_1_big.png
   - https://www.popot.org/get_the_games/images/SDLPoP_2_big.png
@@ -674,9 +701,10 @@
   frameworks:
   - Phaser
   licenses:
-  - As-is
+  - MIT
   content: free
-  updated: 2019-05-09
+  added: 2019-05-09
+  updated: 2025-06-01
 
 - name: Seafood Berserker!
   originals:
@@ -700,8 +728,8 @@
 - name: Secret Agent Remake
   originals:
   - Secret Agent
-  type: clone
-  repo: 'https://sourceforge.net/projects/secretagentremake/'
+  type: remake
+  repo: https://sourceforge.net/projects/secretagentremake/
   development: halted
   status: semi-playable
   content: free
@@ -712,7 +740,8 @@
   licenses:
   - As-is
   info: 'Remake of old game Secret Agent (more weapons, better AI)'
-  updated: '2021-09-12'
+  added: 2021-09-12
+  updated: 2021-09-12
   images:
   - >-
     https://a.fsdn.com/con/app/proj/secretagentremake/screenshots/sam3.png/max/max/1
@@ -724,15 +753,19 @@
 - name: The Secret Chronicles of Dr. M.
   langs:
   - C++
+  frameworks:
+  - SFML
   licenses:
   - GPL3
+  content: free
   development: sporadic
   originals:
   - Mario World
   status: playable
   repo: https://github.com/secretchronicles/TSC
   type: remake
-  updated: 2022-12-08
+  added: 2018-10-06
+  updated: 2025-06-02
   url: https://secretchronicles.org
   images:
   - https://secretchronicles.org/assets/screenshots/1.png
@@ -751,14 +784,18 @@
   - https://upload.wikimedia.org/wikipedia/commons/6/68/Smc-4-v2.0.png
   langs:
   - C++
+  frameworks:
+  - OpenGL
   licenses:
   - GPL3
+  content: open
   development: halted
   originals:
   - Mario World
   status: playable
   repo: https://github.com/FluXy/SMC
   type: remake
+  added: 2011-06-04
   updated: 2018-10-06
   url: http://secretmaryo.org/
 
@@ -767,14 +804,18 @@
   - https://raw.githubusercontent.com/bylexus/sensitive-js/master/screen-remake.png
   langs:
   - JavaScript
+  frameworks:
+  - Phaser
   licenses:
   - ISC
+  content: open
   development: halted
   originals:
   - Sensitive
   status: semi-playable
   repo: https://github.com/bylexus/sensitive-js
   type: remake
+  added: 2017-04-27
   updated: 2017-04-27
 
 - name: Serious Engine
@@ -782,7 +823,7 @@
   - 'Serious Sam: The First Encounter'
   - 'Serious Sam: The Second Encounter'
   type: official
-  repo: 'https://github.com/Croteam-official/Serious-Engine'
+  repo: https://github.com/Croteam-official/Serious-Engine
   url: 'http://www.croteam.com/technology/'
   development: complete
   status: playable
@@ -791,9 +832,12 @@
   content: commercial
   langs:
   - C++
+  frameworks:
+  - DirectX
   licenses:
   - GPL2
-  updated: '2023-03-08'
+  added: 2023-03-08
+  updated: 2023-03-08
   images:
   - 'https://www.croteam.com/wp-content/uploads/2014/10/Engine1_TSE_5.jpg'
   - 'https://www.croteam.com/wp-content/uploads/2014/10/Engine1_TFE_1.jpg'
@@ -807,26 +851,31 @@
   - 'Serious Sam: The First Encounter'
   - 'Serious Sam: The Second Encounter'
   type: remake
-  repo: 'https://github.com/tx00100xt/SeriousSamClassic'
-  feed: 'https://github.com/tx00100xt/SeriousSamClassic/releases.atom'
-  development: very active
+  repo: https://github.com/tx00100xt/SeriousSamClassic
+  feed: https://github.com/tx00100xt/SeriousSamClassic/releases.atom
+  development: sporadic
   status: playable
   content: commercial
   langs:
   - C++
+  frameworks:
+  - SDL2
   licenses:
   - GPL2
-  updated: '2023-02-12'
+  added: 2023-02-12
+  updated: 2025-06-06
   images:
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_1.png
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_2.png
   - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic/main/Images/samxplus_3.png
   
 - name: Serious-Sam-Android
-  info: 'A port of Serious Sam: the Second Encounter to Android. There is also a fork
-  for the Pandora.'
+  info: 'A port of Serious Sam: the Second Encounter to Android. There is also a fork for the Pandora.'
   langs:
   - C++
+  frameworks:
+  - DirectX
+  - OpenGL
   licenses:
   - GPL2
   originals:
@@ -834,18 +883,21 @@
   development: halted
   status: playable
   content: commercial
-  repo: 'https://github.com/aarcangeli/Serious-Sam-Android'
+  repo: https://github.com/aarcangeli/Serious-Sam-Android
   type: remake
-  updated: 2021-10-25
+  added: 2021-10-25
+  updated: 2025-06-06
+  video:
+    youtube: mhUad2YaE3Y
 
 - name: 'Serious Sam Classic: Vulkan'
   originals:
   - 'Serious Sam: The First Encounter'
   - 'Serious Sam: The Second Encounter'
   type: remake
-  repo: 'https://github.com/tx00100xt/SeriousSamClassic-VK'
-  feed: 'https://github.com/tx00100xt/SeriousSamClassic-VK/releases.atom'
-  development: very active
+  repo: https://github.com/tx00100xt/SeriousSamClassic-VK
+  feed: https://github.com/tx00100xt/SeriousSamClassic-VK/releases.atom
+  development: sporadic
   status: playable
   multiplayer:
   - Local
@@ -860,10 +912,10 @@
   - Vulkan
   licenses:
   - GPL2
-  updated: '2023-04-15'
+  added: 2023-04-15
+  updated: 2025-06-07
   images:
-  - >-
-    https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_1.png
+  - https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_1.png
   - 'https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_2.png'
   - 'https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samxplus_3.png'
   - 'https://raw.githubusercontent.com/tx00100xt/SeriousSamClassic-VK/main/Images/samvulkan_1.png'
@@ -879,6 +931,7 @@
   - SDL2
   licenses:
   - GPL2
+  content: free
   development: active
   originals:
   - Seven Kingdoms
@@ -890,32 +943,41 @@
   repo: https://sourceforge.net/projects/skfans/
   type: remake
   url: https://7kfans.com
+  feed: https://7kfans.com/rss.xml
+  added: 2011-06-15
   updated: 2023-10-24
   video:
     youtube: nRE3HX1Tx3g
 
 - name: sfall
   development: active
-  info: Needs full original game
+  info: sfall is a set of engine modifications for the classic game Fallout 2 in the form of a DLL, which modifies executable in memory without changing anything in EXE file itself.
   langs:
   - C++
   - C
   - C#
+  frameworks:
+  - DirectX
   licenses:
   - GPL3
   content: commercial
   originals:
   - Fallout 2
   repo: https://github.com/phobos2077/sfall
-  status: playable
-  type: remake
-  updated: 2018-06-20
+  url: https://sfall-team.github.io/sfall/
+  status: N/A
+  type: tool
+  added: 2018-06-20
+  updated: 2025-06-08
+  images:
+  - https://u.cubeupload.com/NovaRain/sfalldemo1.png
+  - https://u.cubeupload.com/NovaRain/sfalldemo2.png
 
 - name: sh3redux
   originals:
   - Silent Hill 3
   type: remake
-  repo: 'https://github.com/Palm-Studios/sh3redux'
+  repo: https://github.com/Palm-Studios/sh3redux
   url: https://sh3redux.blogspot.com
   feed: https://sh3redux.blogspot.com/feeds/posts/default
   development: halted
@@ -929,7 +991,8 @@
   licenses:
   - GPL3
   info: SILENT HILL 3 Engine Remake in OpenGL and C++
-  updated: '2020-12-03'
+  added: 2020-12-03
+  updated: 2020-12-03
   images:
   - >-
     https://2.bp.blogspot.com/-Y84Ml-Y_vwA/WYxpVeu5mUI/AAAAAAAAAcM/Un6um3dMju41WS06YiwF0lXQ7tTinqMkQCLcBGAs/s1600/texture.png
@@ -952,6 +1015,7 @@
   repo: https://github.com/spleennooname/shadow-of-the-beast-html5
   url: https://spleennooname.github.io/shadow-of-the-beast-html5/
   type: remake
+  added: 2017-04-04
   updated: 2017-04-04
 
 - name: shadowgrounds
@@ -965,6 +1029,7 @@
   status: unplayable
   repo: https://github.com/vayerx/shadowgrounds
   type: remake
+  added: 2015-04-14
   updated: 2022-07-04
 
 - name: Shandalar
@@ -989,8 +1054,8 @@
   originals:
   - 'Umineko: When They Cry Saku'
   type: remake
-  repo: 'https://github.com/dcnick3/shin'
-  development: very active
+  repo: https://github.com/dcnick3/shin
+  development: active
   status: semi-playable
   feed: https://github.com/DCNick3/shin/releases.atom
   content: commercial
@@ -998,6 +1063,7 @@
   - Rust
   licenses:
   - MPL
+  added: 2023-06-23
   updated: 2023-10-25
   images:
   - 'https://raw.githubusercontent.com/DCNick3/shin/master/screenshot.png'
@@ -1014,6 +1080,7 @@
   status: unplayable
   repo: https://github.com/ShiningForceCentral/SF2RE
   type: remake
+  added: 2015-05-10
   updated: 2015-05-10
 
 - name: Shining Soul Remake
@@ -1029,6 +1096,7 @@
   status: unplayable
   repo: https://github.com/CharlieIsMyName/ShiningSoulRemake
   type: remake
+  added: 2016-04-11
   updated: 2022-12-08
   images:
   - https://camo.githubusercontent.com/b3b143b465cd63fc763afb5886489ac4e54d158e345b9746e9c0ee73c4a71b77/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647177796a6e7a67692f696d6167652f75706c6f61642f76313437333730393539302f305f6d76777a6e712e706e67
@@ -1041,6 +1109,7 @@
   - 'The Legend of Zelda: Ocarina of Time'
   type: remake
   repo: https://github.com/HarbourMasters/Shipwright
+  feed: https://github.com/HarbourMasters/Shipwright/releases.atom
   url: https://www.shipofharkinian.com/
   development: active
   status: playable
@@ -1050,10 +1119,14 @@
   langs:
   - C
   - C++
+  frameworks:
+  - SDL2
+  - OpenGL
   info: >-
     An enhanced an improved PC port of the original Ocarina of Time based 
     on the reverse-engineering work done by the OOT decompilation project.
-  updated: '2022-08-29'
+  added: 2022-08-29
+  updated: 2025-06-12
   video:
     youtube: 4ZNIE5xwjsY
 
@@ -1061,8 +1134,8 @@
   originals:
   - 'Tetris: The Grand Master'
   type: clone
-  repo: 'https://github.com/shiromino/shiromino'
-  feed: 'https://github.com/shiromino/shiromino/releases.atom'
+  repo: https://github.com/shiromino/shiromino
+  feed: https://github.com/shiromino/shiromino/releases.atom
   development: sporadic
   status: playable
   content: open
@@ -1072,7 +1145,8 @@
   - SDL2
   licenses:
   - MIT
-  updated: '2022-12-28'
+  added: 2022-12-28
+  updated: 2022-12-28
   images:
   - 'https://tetris.wiki/images/f/fa/Shiromino_title.jpg'
   - 'https://tetris.wiki/images/1/10/Shiromino_ingame.jpg'
@@ -1092,8 +1166,10 @@
   originals:
   - System Shock
   repo: https://github.com/Interrupt/systemshock
+  feed: https://github.com/Interrupt/systemshock/releases.atom
   status: playable
   type: remake
+  added: 2018-06-15
   updated: 2023-10-27
 
 - name: Shrek 2 Remake
@@ -1123,25 +1199,31 @@
 
 - name: 'Siege of Avalon : Open Source'
   images:
-  - https://a.fsdn.com/con/app/proj/soaos/screenshots/114858.jpg/max/max/1
+  - https://soaos.sourceforge.net/images/shots/SOACH6d.jpg
+  - https://soaos.sourceforge.net/images/shots/scrshot7.jpg
+  - https://soaos.sourceforge.net/images/shots/screen3.jpg
   langs:
   - Delphi
+  frameworks:
+  - SDL
   licenses:
-  - Custom
+  - LGPL2
+  content: free
   development: halted
   originals:
   - Siege of Avalon
   status: unplayable
   repo: https://github.com/CartBlanche/Siege-of-Avalon-Open-Source
   type: remake
-  updated: 2022-03-10
+  added: 2015-04-08
+  updated: 2025-06-15
   url: https://soaos.sourceforge.net/
 
 - name: 'Signus: The Artefact Wars'
   type: remake
   originals:
   - 'Signus: The Artefact Wars'
-  repo: 'https://github.com/signus-game/signus'
+  repo: https://github.com/signus-game/signus
   development: complete
   status: playable
   langs:
@@ -1152,25 +1234,30 @@
   - GPL2
   content: open
   info: Complete source port of the original game
+  added: 2021-11-12
   updated: 2021-11-12
   video:
     youtube: SHhLHVwoLFA
 
-- name: Silent Hill 2 Enhancement
+- name: Silent Hill 2 Enhanced Edition
   originals:
   - Silent Hill 2
   status: N/A
   type: tool
   repo: https://github.com/elishacloud/Silent-Hill-2-Enhancements
+  feed: https://github.com/elishacloud/Silent-Hill-2-Enhancements/releases.atom
   url: https://enhanced.townofsilenthill.com/SH2/
   development: active
   content: commercial
   langs:
   - C++
+  frameworks:
+  - DirectX
   licenses:
-  - As-is
+  - Zlib
   info: A project designed to enhance Silent Hill 2 graphics and audio for the PC.
-  updated: 2019-11-15
+  added: 2019-11-15
+  updated: 2025-06-17
   video:
     youtube: 6v1USVhtfjQ
   images:
@@ -1186,15 +1273,19 @@
   originals:
   - The Sims
   repo: https://github.com/riperiperi/Simitone
-  development: halted
+  feed: https://github.com/riperiperi/Simitone/releases.atom
+  development: sporadic
   status: semi-playable
   langs:
   - C#
+  frameworks:
+  - .NET
   licenses:
   - MPL
   content: commercial
   info: Simitone is a singleplayer only version of FreeSO.
-  updated: 2023-10-28
+  added: 2019-09-17
+  updated: 2025-06-17
   images:
   - https://user-images.githubusercontent.com/6294155/68995217-112b2680-0883-11ea-9f92-1acc839a7ec0.png
 
@@ -1202,7 +1293,7 @@
   originals:
   - The Sims 2
   type: remake
-  repo: 'https://github.com/LazyDuchess/SimUnity2'
+  repo: https://github.com/LazyDuchess/SimUnity2
   development: halted
   status: unplayable
   content: commercial
@@ -1212,6 +1303,7 @@
   - Unity
   licenses:
   - As-is
+  added: 2021-10-22
   updated: 2023-10-29
   info: Succeeded by OpenTS2
   images:
@@ -1228,16 +1320,19 @@
   - SDL2
   licenses:
   - Artistic
+  content: open
   development: very active
   originals:
   - Transport Tycoon
-  repo: https://github.com/aburch/simutrans
+  repo: https://github.com/simutrans/simutrans
   status: playable
   multiplayer:
   - Online
   type: clone
   url: https://www.simutrans.com/en/
-  updated: 2021-04-26
+  added: 2011-06-03
+  updated: 2025-06-18
+  info: content "paksets" come in a variety of licenses
   video:
     youtube: e8Wp7rxVg88
 
@@ -1258,6 +1353,7 @@
   repo: https://github.com/slx7R4GDZM/Sine
   status: semi-playable
   type: remake
+  added: 2016-10-30
   updated: 2023-10-30
 
 - name: Skifree-HTML5-clone
@@ -1269,6 +1365,7 @@
   status: semi-playable
   repo: https://github.com/andymason/Skifree-HTML5-clone
   type: remake
+  added: 2015-06-18
   updated: 2015-06-18
 
 - name: skifree.js
@@ -1284,6 +1381,7 @@
   repo: https://github.com/basicallydan/skifree.js
   url: https://basicallydan.github.io/skifree.js/
   type: remake
+  added: 2015-05-02
   updated: 2023-10-31
   info: This is a work in progress JavaScript port of the popular 1991 PC game SkiFree
   images:
@@ -1303,6 +1401,7 @@
   licenses:
   - GPL2
   info: SLADE3 is a modern editor for Doom-engine based games and source ports.
+  added: 2019-08-26
   updated: 2019-08-26
   images:
   - https://slade.mancubus.net/shots/gfx.png
@@ -1314,6 +1413,8 @@
   - https://i0.wp.com/www.linuxlinks.com/wp-content/uploads/2017/12/Screenshot-SlashEM.png
   langs:
   - C
+  frameworks:
+  - Allegro
   licenses:
   - NGPL
   development: halted
@@ -1323,7 +1424,8 @@
   info: SLASH'EM (SuperLotsaAddedStuffHack - Extended Magic) is a variant of Nethack.
   repo: https://sourceforge.net/projects/slashem/
   type: clone
-  updated: 2022-05-02
+  added: 2015-04-11
+  updated: 2025-06-21
   url: http://www.slashem.org/
 
 - name: SliJewel
@@ -1339,7 +1441,8 @@
   licenses:
   - GPL3
   info: 'A Bejeweled game clone written in Turbo Delphi. Configurable board size and number of colours.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/81442796-26b34600-916c-11ea-87ed-c44b69d627f9.png'
 
@@ -1356,7 +1459,8 @@
   licenses:
   - GPL3
   info: 'A Lights Out game clone written in Turbo Delphi. 100 levels built in (50 classic + 50 Lights Out 2000) and random levels generator.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/94176651-4edbe100-fe90-11ea-80c1-e5adc69b3a50.png'
 
@@ -1373,7 +1477,8 @@
   licenses:
   - GPL3
   info: 'A Columns game clone written in Turbo Delphi. Configurable starting difficulty and speed.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/81442889-56fae480-916c-11ea-8f29-5567d4d4a2ae.png'
 
@@ -1381,9 +1486,7 @@
   langs:
   - C++
   licenses:
-  - MIT
-  images:
-  - https://pixeldoctrine.com/img/slime-volleyball.png
+  - BSD
   development: complete
   content: free
   info: reverse-compiled and ported
@@ -1391,12 +1494,13 @@
   - Slime Volleyball
   multiplayer:
   - Competitive
-  - Split-screen
-  repo: https://github.com/highfestiva/life/tree/master/slimevolleyball
+  - Local
+  repo: https://github.com/highfestiva/life
   status: playable
   type: clone
-  updated: 2019-06-14
-  url: https://pixeldoctrine.com/slimevolleyball.html
+  added: 2019-06-07
+  updated: 2025-06-23
+  url: https://pixeldoctrine.com/old/index.html
   video:
     youtube: 3ckvPnatwPs
 
@@ -1413,7 +1517,8 @@
   licenses:
   - GPL3
   info: 'A Master Mind game clone written in Turbo Delphi. Configurable number of pegs, colours, max attempts, repeat colours yes/no.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/81473895-c66ae580-91f9-11ea-9dad-30216f750818.png'
 
@@ -1430,7 +1535,8 @@
   licenses:
   - GPL3
   info: 'A Minesweeper game clone written in Turbo Delphi. Configurable board size and number of mines.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/81442492-98d75b00-916b-11ea-9660-6e55f1949557.png'
 
@@ -1447,7 +1553,8 @@
   licenses:
   - GPL3
   info: 'A Peg Solitaire game clone written in Turbo Delphi. English and European boards.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/81443347-2cf5f200-916d-11ea-8f25-5a3db86b7749.png'
   
@@ -1455,7 +1562,7 @@
   originals:
   - SameGame
   type: remake
-  repo: 'https://github.com/cricri-pingouin/SliSame'
+  repo: https://github.com/cricri-pingouin/SliSame
   development: complete
   status: playable
   content: free
@@ -1464,7 +1571,8 @@
   licenses:
   - GPL3
   info: 'A Same Game clone written in Turbo Delphi. Configurable number of colours and board size.'
-  updated: '2022-10-29'
+  added: 2022-10-29
+  updated: 2022-10-29
   images:
   - 'https://user-images.githubusercontent.com/64480118/81443622-a7bf0d00-916d-11ea-9e60-f4d2b672943f.png'
 
@@ -1481,7 +1589,8 @@
   licenses:
   - GPL3
   info: 'A Snake game clone written in Turbo Delphi. Configurable room size and speed, joystick support.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/81443921-359af800-916e-11ea-841b-efdf9ae4ede0.png'
 
@@ -1498,7 +1607,8 @@
   licenses:
   - GPL3
   info: 'A Tetris game clone written in Turbo Delphi. Configurable starting difficulty and speed.'
-  updated: '2022-10-17'
+  added: 2022-10-17
+  updated: 2022-10-17
   images:
   - 'https://user-images.githubusercontent.com/64480118/81442665-efdd3000-916b-11ea-8aba-af1efc3e6b96.png'
 
@@ -1506,7 +1616,7 @@
   originals:
   - Super Mario 64
   type: remake
-  repo: 'https://github.com/sm64pc/sm64ex'
+  repo: https://github.com/sm64pc/sm64ex
   development: sporadic
   status: playable
   content: commercial
@@ -1516,9 +1626,31 @@
   - OpenGL
   licenses:
   - As-is
-  updated: '2021-07-08'
+  added: 2021-07-08
+  updated: 2021-07-08
+  info: Fork of sm64-port with additional features.
   video:
     youtube: iwBCFY7FqlU
+
+- name: smw
+  originals:
+  - Super Mario
+  type: remake
+  repo: https://github.com/snesrev/smw
+  development: halted
+  status: playable
+  content: commercial
+  langs:
+  - C
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  info: reverse engineered clone of Super Mario World, requires ROM
+  added: 2025-06-03
+  updated: 2025-06-03
+  video:
+    youtube: Ft0Gp-1Tsjc
 
 - name: snake
   licenses:
@@ -1533,6 +1665,7 @@
   repo: https://github.com/spypunk/snake
   status: playable
   type: remake
+  added: 2016-09-14
   updated: 2023-11-01
 
 - name: Snipes
@@ -1550,8 +1683,13 @@
   repo: https://github.com/Davidebyzero/Snipes
   status: playable
   type: remake
+  added: 2017-04-04
   updated: 2017-04-04
-  url: https://www.vogons.org/viewtopic.php?f=7&t=49073
+  url: https://www.vogons.org/viewtopic.php?t=49073
+  images:
+  - https://kingbird.myphotos.cc/1bc763733d48b46534d219b0fc8ddf71/Snipes%20port%20%2B%20ConEmu%20screenshot.png
+  - https://kingbird.myphotos.cc/9c8a600b6df5d251fc199092b8b0d7d9/Snipes%20port%20%2B%20ConEmu%20screenshot%20with%20omniview.png
+  - https://kingbird.myphotos.cc/581b9f191f9e7e990a94cbaf7da2ae36/Snipes%20port%20%2B%20ConEmu%20screenshot%20-%20beat%20level%20Z9.png
 
 - name: Solarus
   images:
@@ -1571,6 +1709,7 @@
   status: playable
   repo: https://gitlab.com/solarus-games/solarus
   type: clone
+  added: 2013-05-28
   updated: 2020-08-25
   url: https://www.solarus-games.org
   video:
@@ -1589,11 +1728,13 @@
   - pygame
   licenses:
   - LGPL2
+  content: open
   originals:
   - Solar Fox
   status: playable
-  development: halted
+  development: complete
   type: remake
+  added: 2015-04-25
   updated: 2022-08-11
   url: https://pygame.org/shredwheat/solarwolf/index.shtml
 
@@ -1601,8 +1742,8 @@
   originals:
   - Soldat
   type: remake
-  repo: 'https://github.com/smokku/soldank'
-  development: halted
+  repo: https://github.com/smokku/soldank
+  development: sporadic
   status: semi-playable
   multiplayer:
   - Online
@@ -1612,7 +1753,8 @@
   - Rust
   licenses:
   - MIT
-  updated: 2023-11-02
+  added: 2021-11-10
+  updated: 2025-06-26
   images:
   - 'https://raw.githubusercontent.com/smokku/soldank/master/sshot.png'
 
@@ -1621,8 +1763,9 @@
   - Sonic Adventure
   type: tool
   status: N/A
-  repo: 'https://github.com/sonicretro/sa_tools'
-  url: https://info.sonicretro.org/SA_Tools
+  repo: https://github.com/X-Hax/sa_tools
+  url: https://github.com/X-Hax/sa_tools/wiki
+  feed: https://github.com/X-Hax/sa_tools/releases.atom
   development: active
   content: commercial
   langs:
@@ -1630,11 +1773,12 @@
   frameworks:
   - .NET
   licenses:
-  - As-is
+  - Multiple
   info: >-
     SA Tools is a toolkit for modifying and extracting data from the Sonic
     Adventure series of games
-  updated: '2019-11-27'
+  added: 2019-11-27
+  updated: 2019-11-27
   images:
   - >-
     https://github.com/sonicretro/sa_tools/raw/Docs/Documentation/images/project_manager_split_window.png
@@ -1654,40 +1798,25 @@
   licenses:
   - GPL2
   content: free
-  development: active
+  development: sporadic
   originals:
   - Sonic the Hedgehog
   status: playable
   repo: https://github.com/STJr/SRB2
   type: similar
-  updated: 2021-09-07
+  added: 2014-04-16
+  updated: 2025-06-27
   url: https://www.srb2.org/
-  info: SRB2 is closely inspired by the original Sonic games from the Sega Genesis, and attempts to recreate the design in 3D.
+  info: 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy
 
-- name: Sonic-1-2-2013-Decompilation
+- name: Sonic 3 A.I.R.
   originals:
   - Sonic the Hedgehog
   type: remake
-  repo: 'https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation'
-  feed: 'https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation/releases.atom'
+  repo: https://github.com/Eukaryot/sonic3air
+  feed: https://github.com/Eukaryot/sonic3air/releases.atom
+  url: https://sonic3air.org/
   development: active
-  status: playable
-  content: commercial
-  frameworks:
-  - SDL2
-  licenses:
-  - Custom
-  updated: '2021-07-12'
-  video:
-    youtube: gzIfRW91IxE
-
-- name: 'Sonic 3 A.I.R - Angel Island Revisited'
-  originals:
-  - Sonic the Hedgehog
-  type: remake
-  repo: 'https://github.com/Eukaryot/sonic3air'
-  url: 'https://sonic3air.org/'
-  development: very active
   status: playable
   multiplayer:
   - Split-screen
@@ -1698,7 +1827,9 @@
   - SDL2
   licenses:
   - GPL3
-  updated: '2023-07-05'
+  added: 2023-07-05
+  updated: 2025-06-29
+  info: A fan-made widescreen remaster of Sonic 3 & Knuckles.
   images:
   - 'https://sonic3air.org/images/icecap01.png'
   - 'https://sonic3air.org/images/skysanctuary01.png'
@@ -1728,16 +1859,19 @@
   originals:
   - Sonic the Hedgehog
   type: remake
-  repo: 'https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation'
+  repo: https://github.com/RSDKModding/Sonic-Mania-Decompilation
+  feed: https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases.atom
   development: very active
   status: playable
   content: commercial
   langs:
   - C
+  frameworks:
+  - SDL2
   licenses:
   - Custom
-  updated: '2023-07-05'
-
+  added: 2023-07-05
+  updated: 2025-06-29
 
 - name: Sopwith 3
   langs:
@@ -2129,6 +2263,7 @@
   status: N/A
   originals:
   - Albion
+  - Battle Isle 2220
   - 'Septerra Core: Legacy of the Creator'
   - 'Warcraft: Orcs & Humans'
   - 'X-COM: Terror from the Deep'
@@ -2150,7 +2285,7 @@
     A tool to statically recompile the original game executable to create a
     Windows or Linux (x86 or ARM) version of the game, including some
     enhancements
-  updated: 2020-02-07
+  updated: 2025-06-21
 
 - name: SRB2Kart
   originals:
@@ -2914,6 +3049,29 @@
   updated: 2019-03-25
   images:
   - https://www.michaelfogleman.com/static/img/project/pac-man/thumbnail/1.png
+
+- name: Symbolica
+  originals:
+  - Symbolica
+  type: clone
+  repo: 'https://sourceforge.net/projects/symbolica/'
+  feed: 'https://sourceforge.net/p/symbolica/activity/feed'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - C++
+  licenses:
+  - BSD
+  info: >-
+    A port of the c64 puzzle game symbolica, primary targeted to the handhelds
+    gp2x and n-800 but is also running on other Unix platforms.
+  added: '2025-06-07'
+  updated: '2025-06-07'
+  images:
+  - 'https://os4depot.net/filedata/snapshot/2890_1_snap.jpg'
+  - 'https://os4depot.net/filedata/snapshot/2890_2_snap.jpg'
+  - 'https://a.fsdn.com/con/app/proj/symbolica/screenshots/118811.jpg'
 
 - name: Syndicate Wars Port
   development: active

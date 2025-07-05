@@ -554,6 +554,26 @@
   video:
     youtube: cU4T3GSIjxs
 
+- name: mengde
+  originals:
+  - Sangokushi Sōsōden
+  type: remake
+  repo: 'https://github.com/wateret/mengde'
+  development: sporadic
+  status: semi-playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - MIT
+  added: 2025-06-27
+  updated: 2025-06-27
+  images:
+  - >-
+    https://raw.githubusercontent.com/wateret/mengde/refs/heads/master/docs/mengde.gif
+
 - name: Meridian 59
   langs:
   - C++
@@ -752,6 +772,22 @@
   images:
   - https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Micropolis_-_big_city.png/640px-Micropolis_-_big_city.png
 
+- name: MicropolisJ
+  originals:
+  - SimCity
+  type: remake
+  repo: 'https://github.com/jason17055/micropolis-java'
+  development: halted
+  status: playable
+  content: open
+  langs:
+  - Java
+  licenses:
+  - GPL3
+  info: MicropolisJ is Micropolis for the Java platform.
+  added: 2025-06-28
+  updated: 2025-06-28
+
 - name: micropolisJS
   langs:
   - JavaScript
@@ -818,6 +854,35 @@
   - https://mindustrygame.github.io/1.d25af17a.webp
   - https://mindustrygame.github.io/2.0d4f9a35.webp
   - https://mindustrygame.github.io/3.88567664.webp
+
+- name: Mineclonia
+  originals:
+  - Minecraft
+  type: clone
+  repo: https://codeberg.org/mineclonia/mineclonia/
+  feed: https://codeberg.org/mineclonia/mineclonia/releases.rss
+  url: https://content.luanti.org/packages/ryvnf/mineclonia/
+  development: active
+  status: playable
+  multiplayer:
+  - Online
+  - LAN
+  content: open
+  langs:
+  - Lua
+  frameworks:
+  - Luanti
+  licenses:
+  - GPL3
+  info: Forked from VoxeLibre (formerly known as MineClone2)
+  added: 2025-06-16
+  updated: 2025-06-16
+  images:
+  - 'https://content.luanti.org/uploads/864a6133e4.png'
+  - 'https://content.luanti.org/uploads/23bc4b8e04.png'
+  - 'https://content.luanti.org/uploads/518bab7e3e'
+  - 'https://content.luanti.org/uploads/f1006b2df0.png'
+  - 'https://content.luanti.org/uploads/607d94d17f.png'
 
 - name: Minecraft
   originals:
@@ -1180,6 +1245,28 @@
   type: remake
   added: 2017-10-20
   updated: 2023-10-05
+
+- name: mkxp-z
+  originals:
+  - RPG Maker
+  type: remake
+  repo: https://github.com/mkxp-z/mkxp-z
+  development: active
+  status: playable
+  content: free
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - GPL2
+  info: >-
+    A very heavily modified fork of mkxp, able to run Pokemon Essentials and most
+    RGSS projects
+  added: 2025-06-03
+  updated: 2025-06-03
+  images:
+  - https://github.com/mkxp-z/mkxp-z/raw/dev/screenshot.png?raw=true
 
 - name: Mocha Doom
   images:
