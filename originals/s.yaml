@@ -60,6 +60,21 @@
   - iOS
   - Windows
 
+- name: Sangokushi Sōsōden
+  names:
+  - 三國志曹操伝
+  - 三國志曹操傳
+  external:
+    website: 'https://www.gamecity.ne.jp/products/products/ee/Rlsousou.htm'
+    wikipedia: Sangokushi Sōsōden
+  platforms:
+  - Windows
+  meta:
+    genres:
+    - Turn-Based Tactics
+    themes:
+    - Civil War
+
 - name: 'Schizm: Mysterious Journey'
   external:
     website: https://www.mobygames.com/game/4688
@@ -74,7 +89,7 @@
 
 - name: Scorched Earth
   external:
-    wikipedia: Scorched Earth
+    wikipedia: Scorched Earth (video game)
   meta:
     genres:
     - Turn-Based Tactics
@@ -814,6 +829,13 @@
     genres:
     - Arcade
 
+- name: Snake II
+  external:
+    wikipedia: Snake II
+  meta:
+    genres:
+    - Arcade
+
 - name: Snipes
   external:
     wikipedia: Snipes (video game)
@@ -1517,6 +1539,28 @@
     themes:
     - Sci-Fi
 
+- name: Steins;Gate
+  external:
+    website: 'https://steinsgate.jp/'
+    wikipedia: Steins;Gate
+  platforms:
+  - Android
+  - iOS
+  - PlayStation 3
+  - PlayStation Vita
+  - PSP
+  - Windows
+  - Xbox 360
+  - Xbox One
+  meta:
+    genres:
+    - Adventure
+    subgenres:
+    - Visual Novel
+    themes:
+    - Anime
+    - Sci-Fi
+
 - name: Stellaluna
   external:
     website: https://www.mobygames.com/game/71459
@@ -1839,4 +1883,13 @@
     genres:
     - Action
     - Adventure
+    - Puzzle
+
+- name: Symbolica
+  external:
+    website: 'https://gb64.com/game.php?id=7709'
+  platforms:
+  - Commodore 64
+  meta:
+    genres:
     - Puzzle

@@ -451,11 +451,20 @@
     - Shooter
 
 - name: The Maze of Galious
+  names:
+  - 'Knightmare II: The Maze of Galious'
+  - 魔城伝説II ガリウスの迷宮
   external:
+    website: 'https://www.mobygames.com/game/19474/knightmare-ii-the-maze-of-galious/'
     wikipedia: The Maze of Galious
+  platforms:
+  - MSX
   meta:
     genres:
+    - Action
     - Platform
+    themes:
+    - Fantasy
 
 - name: MechCommander 2
   external:
@@ -949,6 +958,26 @@
     - Turn-Based Strategy
     themes:
     - Management
+
+- name: Mr. Driller
+  external:
+    website: 'https://www.mobygames.com/game/4348/mr-driller/'
+    wikipedia: Mr. Driller (video game)
+  platforms:
+  - Arcade
+  - Dreamcast
+  - Game Boy
+  - PlayStation
+  - PlayStation 3
+  - PlayStation 4
+  - PlayStation 5
+  - PlayStation Vita
+  - PSP
+  - Windows
+  meta:
+    genres:
+    - Action
+    - Puzzle
 
 - name: Muppet Treasure Island
   external:

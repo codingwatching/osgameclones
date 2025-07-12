@@ -194,6 +194,7 @@
   names:
   - Chaos;Head Noah
   external:
+    website: 'https://www.nitroplus.co.jp/pc/lineup/into_15/top.php'
     wikipedia: Chaos;Head
   platforms:
   - Android
@@ -209,6 +210,8 @@
     - Adventure
     subgenres:
     - Visual Novel
+    themes:
+    - Anime
 
 - name: 'Chewy: Esc from F5'
   external:
@@ -310,6 +313,8 @@
   meta:
     genres:
     - Turn-Based Strategy
+    subgenres:
+    - 4X
 
 - name: Civilization II
   external:
@@ -319,10 +324,20 @@
     - Turn-Based Strategy
     subgenres:
     - 4X
-    themes:
-    - Alternate Historical
-    - Management
-    
+
+- name: Civilization III
+  external:
+    website: 'https://civilization.2k.com/civ-iii/'
+    wikipedia: Civilization III
+  platforms:
+  - OSX
+  - Windows
+  meta:
+    genres:
+    - Turn-Based Strategy
+    subgenres:
+    - 4X
+
 - name: Civilization V
   external:
     wikipedia: Civilization V
@@ -331,9 +346,6 @@
     - Turn-Based Strategy
     subgenres:
     - 4X
-    themes:
-    - Alternate Historical
-    - Management
 
 - name: Clandestiny
   external:
@@ -636,6 +648,21 @@
   - FM Towns
   - PC-98
 
+- name: Crash Team Racing
+  external:
+    website: 'https://www.mobygames.com/game/ctr-crash-team-racing'
+    wikipedia: Crash Team Racing
+  platforms:
+  - PlayStation
+  - PlayStation 3
+  - PlayStation Vita
+  - PSP
+  meta:
+    genres:
+    - Racing
+    themes:
+    - Motorsports
+    
 - name: Crazy Cars
   external:
     wikipedia: Titus Software

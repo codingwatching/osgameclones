@@ -850,6 +850,7 @@
   - Road Fighter
   type: remake
   repo: 'https://github.com/ptitSeb/roadfighter'
+  url: 'https://roadfighter.jorito.net/'
   development: complete
   status: playable
   content: free
@@ -861,8 +862,12 @@
   licenses:
   - As-is
   info: 'Port of Roadfighter from Brain Games to the OpenPandora, ODroid and Linux'
-  updated: '2022-08-04'
+  updated: 2025-07-06
   images:
+  - 'https://roadfighter.jorito.net/pics/screenshot1.jpg'
+  - 'https://roadfighter.jorito.net/pics/screenshot2.jpg'
+  - 'https://roadfighter.jorito.net/pics/screenshot3.jpg'
+  - 'https://roadfighter.jorito.net/pics/screenshot4.jpg'
   - 'https://raw.githubusercontent.com/ptitSeb/roadfighter/master/screenshot.png'
 
 - name: Robbo
@@ -1174,6 +1179,49 @@
   - https://i.imgur.com/1SLxDzE.png
   video:
     youtube: _l39NfOHPcY
+
+- name: RSDKv3
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: https://github.com/RSDKModding/RSDKv3-Decompilation
+  feed: https://github.com/RSDKModding/RSDKv3-Decompilation/releases.atom
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL2
+  licenses:
+  - Custom
+  info: A Full Decompilation of Sonic CD (2011) & Retro Engine (v3)
+  added: 2021-07-22
+  updated: 2025-06-30
+  video:
+    youtube: tTErcMRznkk
+
+- name: RSDKv4-Decompilation
+  originals:
+  - Sonic the Hedgehog
+  type: remake
+  repo: https://github.com/RSDKModding/RSDKv4-Decompilation
+  feed: https://github.com/RSDKModding/RSDKv4-Decompilation/releases.atom
+  development: active
+  status: playable
+  content: commercial
+  langs:
+  - C++
+  frameworks:
+  - SDL
+  - SDL2
+  licenses:
+  - Custom
+  added: 2021-07-12
+  updated: 2025-06-29
+  info: A complete decompilation of Retro Engine v4 and the menus from Sonic 1 and 2 (2013)
+  video:
+    youtube: gzIfRW91IxE
 
 - name: Rtype
   langs:
