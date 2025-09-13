@@ -72,6 +72,26 @@
   video:
     youtube: MB-v907JXSU
 
+- name: ebiten-mines
+  originals:
+  - Minesweeper
+  type: remake
+  repo: 'https://github.com/mevdschee/ebiten-mines/'
+  url: 'https://www.maurits.vdschee.nl/ebiten-mines/'
+  development: complete
+  status: playable
+  content: free
+  langs:
+  - Go
+  frameworks:
+  - Ebitengine
+  licenses:
+  - MIT
+  added: 2025-09-08
+  updated: 2025-09-08
+  images:
+  - https://raw.githubusercontent.com/mevdschee/ebiten-mines/refs/heads/main/screenshot.jpg
+
 - name: Ecksdee
   images:
   - https://a.fsdn.com/con/app/proj/ecksdee/screenshots/98817.jpg
@@ -296,6 +316,25 @@
   frameworks:
   - SDL2
   info: archived in favor of OpenNefia
+
+- name: emacs-2048-game
+  originals:
+  - '2048'
+  type: clone
+  repo: 'https://hg.sr.ht/~zck/game-2048'
+  url: https://packages.guix.gnu.org/packages/emacs-2048-game/
+  development: complete
+  status: playable
+  langs:
+  - Emacs Lisp
+  frameworks:
+  - Emacs
+  licenses:
+  - GPL3
+  added: 2025-09-08
+  updated: 2025-09-08
+  images:
+  - https://sachachua.com/blog/wp-content/uploads/2014/05/2014-04-16-23_27_25-emacs@SACHA-X220.png
 
 - name: EmptyEpsilon
   images:
